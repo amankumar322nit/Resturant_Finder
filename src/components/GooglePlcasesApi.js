@@ -65,7 +65,7 @@ const SearchLocationInput = ({ setSelectedLocation }) => {
 
   return (
     <div className="search-location-input">
-      <label>Type in your suburb or postcode</label>
+      <label>Type Resturant name and address</label>
       <input
         ref={autoCompleteRef}
         className="form-control"
